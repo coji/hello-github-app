@@ -58,6 +58,6 @@ const main = async () => {
     },
   )
 
-  console.log(await pulls.json())
+  console.log(await pulls.json(), pulls.headers)
 }
 main()
